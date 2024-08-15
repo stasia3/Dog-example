@@ -1,6 +1,13 @@
-class Dog{
-	int size;
-	String name;
+class GoodDog{
+	private int size;
+
+	public int getSize(){
+		return size;
+	}
+
+	public void setSize(int s){
+		size = s;
+	}
 
 	public void bark(){
 		if (size > 60){
